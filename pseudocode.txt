@@ -1,0 +1,18 @@
+START
+Ask user for weekly income
+Read income
+
+IF income is less than or equal to 600
+    tax = income times 0.10
+    print tax
+ELSE IF income is less than 1400
+    tax = income times 0.18
+    print tax
+ELSE IF income is less than or equal to 2600
+    tax = income times 0.22
+    print tax
+ELSE
+    tax = income times 0.30
+    print tax
+
+END
